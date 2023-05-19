@@ -1,4 +1,49 @@
-.container{
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #E5E5E5;
+}
+
+.container {
   margin: 0 auto;
-  max-width: 1150px;  
-} 
+  max-width: 660px;
+}
+
+.shop-title {
+  margin: 50px 0;
+  font-size: 28px;
+  text-align: center;
+}
+
+.shop-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.product-item {
+  margin-bottom: 30px;
+  width: 200px;
+  height: 226px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: #E0E0E0;
+}
+
+.product-img {
+  margin-bottom: 10px;
+  width: 130px;
+  height: 130px;
+}
+
+.product-title {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.product-desc {
+  font-size: 14px;
+  font-weight: 400;
+}
